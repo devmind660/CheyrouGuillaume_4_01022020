@@ -35,7 +35,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo de l'agence web La chouette agence" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -78,7 +78,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -95,12 +95,13 @@
 						<label for="message-1">
 							Comment nous avez-vous connu ?
 						</label>
-						<input id="message-1" class="form-control" type="email" required id="input_504" />
+						<input id="message-1" class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label for="message-2">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message-2" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message-2" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
